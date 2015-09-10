@@ -50,10 +50,10 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "1e256782-e6ca-475f-9a17-9b7efc5943a1"
+  api_key: "a2828548-2c43-4e63-8e0f-c7c0923e44ec"
   skip_cleanup: true
   strategy: api
   buildpack: https://github.com/ddollar/heroku-buildpack-multi
-  app: intense-forest-7815
+  app: arcane-harbor-4531
   on:
     php: 5.5
